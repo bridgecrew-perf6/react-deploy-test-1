@@ -1,3 +1,3 @@
-#My first React.js deploy
+# My first React.js deploy
 
-##Thanks for watching
+## Thanks for watching
