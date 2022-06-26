@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-deploy-test/static/css/main.a86e9312.css",
-    "main.js": "/react-deploy-test/static/js/main.c9aed925.js",
+    "main.css": "/react-deploy-test/static/css/main.91ed91fe.css",
+    "main.js": "/react-deploy-test/static/js/main.b4d57209.js",
     "static/media/profilepic.png": "/react-deploy-test/static/media/profilepic.1afa10bd47edb4df94e7.png",
     "index.html": "/react-deploy-test/index.html",
     "static/media/linkedin.svg": "/react-deploy-test/static/media/linkedin.f2f7d420f8ec14109e65abad03b5f32c.svg",
     "static/media/mail.svg": "/react-deploy-test/static/media/mail.dba533a0d3bd121023c13a25036858ed.svg",
-    "main.a86e9312.css.map": "/react-deploy-test/static/css/main.a86e9312.css.map",
-    "main.c9aed925.js.map": "/react-deploy-test/static/js/main.c9aed925.js.map"
+    "main.91ed91fe.css.map": "/react-deploy-test/static/css/main.91ed91fe.css.map",
+    "main.b4d57209.js.map": "/react-deploy-test/static/js/main.b4d57209.js.map"
   },
   "entrypoints": [
-    "static/css/main.a86e9312.css",
-    "static/js/main.c9aed925.js"
+    "static/css/main.91ed91fe.css",
+    "static/js/main.b4d57209.js"
   ]
 }
