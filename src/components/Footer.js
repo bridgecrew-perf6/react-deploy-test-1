@@ -1,6 +1,6 @@
-const Footer = () => {
+const Footer = ({ bgColor }) => {
     return (
-        <div className="Footer">
+        <div className="Footer" style={{ background: bgColor }}>
             
         </div>
     );

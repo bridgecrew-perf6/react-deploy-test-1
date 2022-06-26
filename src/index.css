@@ -15,7 +15,7 @@
 }
 
 body {
-  background: var(--c1);
+  transition: background 300ms ease, color 300ms ease;
 }
 
 .App {
@@ -25,15 +25,16 @@ body {
   margin: 20px auto;
   display: flex;
   flex-direction: column;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
 
 .Info {
   width: 100%;
-  background: var(--c4);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   color: white;
   text-align: center;
+  transition: background 300ms ease, color 300ms ease;
 }
 
 .ProfilePic {
@@ -44,12 +45,10 @@ body {
 }
 
 .Info > p:nth-of-type(1) {
-  color: aquamarine;
   margin-bottom: 10px;
 }
 
 .Info > p:nth-of-type(2) {
-  color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
 }
 
@@ -72,6 +71,7 @@ body {
   color: rgba(0, 0, 0, 0.6);
   align-items: center;
   padding-inline: 10px;
+  transition: background 300ms ease, color 300ms ease;
 }
 
 .LinkButton:hover{
@@ -84,9 +84,9 @@ body {
 
 .About {
   width: 100%;
-  background: var(--c3);
   padding: 25px;
   color: white;
+  transition: background 300ms ease, color 300ms ease;
 }
 
 .About > p {
@@ -97,9 +97,9 @@ body {
 
 .Interests {
   width: 100%;
-  background: var(--c3);
   padding: 25px;
   color: white;
+  transition: background 300ms ease, color 300ms ease;
 }
 
 .Interests > p {
@@ -111,7 +111,22 @@ body {
 .Footer {
   width: 100%;
   height: 80px;
-  background: var(--c2);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  transition: background 300ms ease, color 300ms ease;
+}
+
+.ThemeButton {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}
+
+.ThemeButton:hover {
+  transform: scale(95%);
+  cursor: pointer;
 }

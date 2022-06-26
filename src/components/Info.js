@@ -3,19 +3,19 @@ import MailIcon from '../images/mail.svg'
 import LinkButton from './LinkButton'
 import LinkedInIcon from '../images/linkedin.svg'
 
-const Info = () => {
+const Info = ({ bgColor, textColor, btnColors }) => {
     return (
-        <div className="Info">
-            <img className='ProfilePic' src={ProfilePic} alt=""/>
+        <div className="Info" style={{ background: bgColor, color: textColor }}>
+            <img className='ProfilePic' src={ProfilePic} alt="" />
             <h2>Wojciech Glid</h2>
-            <p>Frontend Developer</p>
-            <p>@thewasteghost</p>
+            <p style={{ color: btnColors[1] }}>Frontend Developer</p>
+            <p style={{ color: textColor, opacity: 0.5 }}>@thewasteghost</p>
             <section>
-                <LinkButton bg="white" link="https://www.google.com/" icon={MailIcon} text="Email"/>
-                <LinkButton bg="aquamarine" link="https://www.google.com/" icon={LinkedInIcon} text="LinkedIn"/>
+                <LinkButton bg={btnColors[0]} link="https://www.google.com/" icon={MailIcon} text="Email"/>
+                <LinkButton bg={btnColors[1]} link="https://www.google.com/" icon={LinkedInIcon} text="LinkedIn"/>
             </section>
         </div>
     );
 }
 
-export default Info;
+export default Info
